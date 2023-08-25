@@ -1,0 +1,59 @@
+body {
+    font-family: 'Times New Roman', Times, serif; 
+    margin: 0; 
+    padding: 0;
+}
+header {
+    background-color: rgb(131, 216, 250); 
+    width: 250px; 
+    color:rgb(86, 120, 231); 
+    height: 100vh; 
+    float: left;
+}
+main {
+    margin-left: 250px; 
+    padding: 20px;
+}
+nav {
+    width: 250px; 
+    background-color:rgb(131, 216, 250); 
+    color:white; 
+    height: 100vh; 
+    float: left;
+}
+form {
+    border: 1px solid #ccc; 
+    padding: 20px; 
+    background-color: aquamarine;
+}
+table {
+    width: 100%; 
+    border-collapse: collapse; 
+    margin-bottom: 20px;
+}
+input, textarea {
+    width: 100%; 
+    padding: 10px; 
+    margin-bottom: 15px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+}
+button {
+    background-color: rgb(67, 142, 255); 
+    color: white; 
+    border: none; padding: 10px 20px; 
+    border-radius: 5px; 
+    cursor: pointer;
+}
+th {
+    border: 1px solid #ccc; 
+    padding: 8px; 
+    text-align: left; 
+    background-color: aquamarine;
+}
+td {
+    border: 1px solid #ccc; 
+    padding: 8px; 
+    text-align: left; 
+    background-color: rgb(225, 255, 245);
+}

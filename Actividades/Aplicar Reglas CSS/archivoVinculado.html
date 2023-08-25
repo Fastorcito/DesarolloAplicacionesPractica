@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Descripción de la página">
-    <meta property="og:title" content="Título de la página">
-    <meta property="og:description" content="Descripción de la página">
-    <meta property="og:image" content="URL de la imagen para OpenGraph">
-    <title>CSS Vinculado</title>
+    <meta name="description" content="Página que almacena datos de peces"> 
+    <meta property="og:title" content="Peces"> 
+    <meta property="og:description" content="Página que almacena datos de peces"> 
+    <meta property="og:image" content="URL de la imagen para OpenGraph"><title>CSS en cabecera</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1 STYLE="text-align: CENTER;">PAGINA WEB</h1>
+        <h1 STYLE="text-align: CENTER;">Peces</h1>
         <nav>
             <ul>
                 <li><a href="#">Inicio</a></li>
@@ -22,37 +22,40 @@
     </header>
     <main>
         <section>
-            <h1>Formulario</h1>
+            <h1 style="border: 1px solid #ccc; padding: 20px; background-color: aquamarine;">Registra Peces</h1>
             <form>
                 <label for="nombre">Nombre:</label>
                 <input type="text" id="nombre" name="nombre" required>
 
-                <label for="email">Email:</label>
+                <label for="email">Ubicación:</label>
                 <input type="email" id="email" name="email" required>
 
-                <label for="mensaje">Mensaje:</label>
+                <label for="mensaje">Descripción:</label>
                 <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
 
                 <button type="submit">Enviar</button>
             </form>
         </section>
         <section>
-            <h1>Tabla</h1>
+            <h1 style="border: 1px solid #ccc; padding: 20px; background-color: aquamarine;">Peces Registrados</h1>
             <table>
                 <thead>
                     <tr>
                         <th>Nombre</th>
-                        <th>Edad</th>
+                        <th>Ubicación</th>
+                        <th>Imagen</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Usuario 1</td>
-                        <td>25</td>
+                        <td>Pez neón</td>
+                        <td>América del Sur</td>
+                        <td><img src="img/pez-neon.jpg" style="height: 100px;"></td>
                     </tr>
                     <tr>
-                        <td>Usuario 2</td>
-                        <td>30</td>
+                        <td>Pez payaso</td>
+                        <td>Pacífico Occidental</td>
+                        <td><img src="img/pez.jpg" style="height: 100px;"></td>
                     </tr>
                 </tbody>
             </table>
