@@ -1,0 +1,29 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.raza {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.raza h2 {
+    margin-top: 0;
+}
+
+.imagen-perro {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    width: 350px;
+}
+
+.descripcion {
+    margin-top: 1rem;
+}

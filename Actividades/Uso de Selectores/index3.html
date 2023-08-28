@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="nombre.css">
+    <link rel="stylesheet" href="clase.css">
+    <link rel="stylesheet" href="id.css">
+    <title>Perritos</title>
+</head>
+<body>
+    <header>
+        <h1>Razas de Perros</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Acerca de</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <div class="raza">
+            <h2>Golden Retriever</h2>
+            <img class="imagen-perro" src="img/Golden_Retriever.jpg" alt="Golden Retriever">
+            <div class="descripcion">
+                <p>El Golden Retriever es conocido por su naturaleza amigable y obediente. Son perros inteligentes y se llevan bien con niños y otras mascotas.</p>
+            </div>
+        </div>
+        
+        <div class="raza">
+            <h2>Bulldog Francés</h2>
+            <img class="imagen-perro" src="img/Bulldog_Frances.jpg" alt="Bulldog Francés">
+            <div class="descripcion">
+                <p>Los Bulldogs Franceses son perros pequeños y compactos con orejas grandes y una personalidad encantadora. Son ideales para viviendas más pequeñas.</p>
+            </div>
+        </div>
+        
+        <div class="raza">
+            <h2>Pastor Alemán</h2>
+            <img class="imagen-perro" src="img/Pastor_Aleman.jpg" alt="Pastor Alemán">
+            <div class="descripcion">
+                <p>Los Pastores Alemanes son conocidos por su inteligencia y habilidades en el trabajo. Son perros leales y protectores, a menudo utilizados en roles de servicio.</p>
+            </div>
+        </div>
+
+        <div class="raza">
+            <h2>Poodle</h2>
+            <img class="imagen-perro" src="img/Poodle.jpg" alt="Pastor Alemán">
+            <div class="descripcion">
+                <p>Los Poodles son conocidos por su inteligencia y elegancia. Vienen en diferentes tamaños y son adecuados como mascotas y compañeros cariñosos.</p>
+            </div>
+        </div>
+
+        <div class="raza">
+            <h2>Agregar Nueva Raza</h2>
+            <form>
+                <label for="nombre-perro">Nombre de la Raza:</label>
+                <input type="text" name="nombre-perro" required>
+                
+                <label for="imagen-perro">URL de la Imagen:</label>
+                <input type="url" name="imagen-perro" required>
+                
+                <label for="descripcion-perro">Descripción:</label>
+                <textarea name="descripcion-perro" rows="4" required></textarea>
+                
+                <button id="boton_enviar" type="submit">Agregar Raza</button>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <h5>Página de razas de perritos para el curso de Desarrollo de aplicaciones</h5>
+    </footer>
+</body>
+</html>

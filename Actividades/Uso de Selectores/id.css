@@ -1,0 +1,12 @@
+#boton_enviar{
+    background-color: #ffe600;
+    color: #000000;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#boton_enviar:hover{
+    background-color: #555;
+}
